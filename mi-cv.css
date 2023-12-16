@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.seccion-con-borde {
+    border-radius: 20px;
+    border: solid #000000;
+    padding-right: 80px;
+    padding-left: 20px;
+    margin: 20px;
+    flex: 1;
+    max-width: 56%;
+   background-color: aliceblue;
+   width: 350px;
+   
+}
+
+h2 {
+    color: black;
+}
+
+img {
+    max-width: 150px;
+    height: auto;
+}
+
+
+.circulo {
+    border-radius: 100%;
+    overflow: hidden;
+    border: solid black;
+    
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+#borde-perfil {
+    border-radius: 20px;
+    border: solid #000000;
+    padding: 20px;
+    margin: 20px;
+    
+    background-color: #f5f5dc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 720px;
+}
+
+h1 {
+  padding-bottom: 20px;
+
+}
+
+.borde-exterior {
+    border-radius: 20px;
+    border: solid #000000;
+    padding: 20px;
+    margin: 20px;
+    width: 350px;
+    height: 600px;
+    background-color: #f5f5dc;
+    
+
+}
+
+#contacto {
+    border: solid black;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-top: 80px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+#estudiante {
+    font-family: 'Lobster', sans-serif;
+    padding-top: 30px;
+}
+
+header {
+    font-family: 'Lobster', sans-serif;
+}
